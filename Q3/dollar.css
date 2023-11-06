@@ -1,0 +1,84 @@
+div {
+    border: 1px solid black;
+}
+
+.outer {
+    width: 500px;
+height: 150px;
+background-color: green;
+/* WRITE YOUR CODE HERE */
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+.inner {
+    height: 100%;
+width: 100%;
+background-color: lightgreen;
+/* WRITE YOUR CODE HERE */
+
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner .value {
+    margin: 0 25px;
+font-size: 48px;
+font-weight: bold;
+/* WRITE YOUR CODE HERE */
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    /* WRITE YOUR CODE HERE */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.right {
+    /* WRITE YOUR CODE HERE */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 50%; 
+    transform: translateY(-50%); 
+
+   
+}
+
+.portrait {
+    height: 100%;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+/* WRITE YOUR CODE HERE */
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 10px;
+    position: absolute;
+    height: 88%;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}
